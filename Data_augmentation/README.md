@@ -9,7 +9,6 @@ This folder  focuses on data augmentation and manipulation techniques for image 
 - **merge_datasets.py**: Script to merge the augmented datasets with the original dataset.
 - **checking_status.py**: Script to check the status of the DataLoader.
 - **visualizing_data.py**: Script to visualize images and their corresponding labels.
-- **data_augmentation.ipynb**: Jupyter Notebook for Data_augmentation.
 
 ### Directory Structure
 
@@ -19,5 +18,4 @@ This folder  focuses on data augmentation and manipulation techniques for image 
 ├── dataset_augmentation.py
 ├── merge_datasets.py
 ├── checking_status.py
-├── visualizing_data.py
-└── data_augmentation.ipynb
+└── visualizing_data.py
