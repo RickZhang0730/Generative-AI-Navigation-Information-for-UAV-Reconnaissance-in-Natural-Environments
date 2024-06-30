@@ -12,11 +12,11 @@ Due to the vibrations during drone aerial photography, some aerial images may no
   <tr>
     <td align="center" style="border: none;">
       <p>Original image</p>
-      <img width="350" height="200" src="Images/Image_enhancement1.jpg" alt="original image">
+      <img width="350" height="200" src="https://github.com/RickZhang0730/Generative-AI-Navigation-Information-for-UAV-Reconnaissance-in-Natural-Environments/blob/main/Images/Image_enhancement1.jpg" alt="original image">
     </td>
     <td align="center" style="border: none;">
       <p>Enhanced image</p>
-      <img width="350" height="200" src="Images/Image_enhancement2.jpg" alt="enhanced image">
+      <img width="350" height="200" src="https://github.com/RickZhang0730/Generative-AI-Navigation-Information-for-UAV-Reconnaissance-in-Natural-Environments/blob/main/Images/Image_enhancement2.jpg" alt="enhanced image">
     </td>
   </tr>
 </table>
