@@ -159,4 +159,40 @@ python validation.py --mask_root '/home/ttsai/Drone_contest_2/Dataset_for_Contes
     <div align = left><img width="600" height="380" src="https://github.com/RickZhang0730/Generative-AI-Navigation-Information-for-UAV-Reconnaissance-in-Natural-Environments/blob/main/Images/Visualize_training_process1.png"></div>
 
 ## Results
+- River image vs Road image
+<table style="border: none; width: 100%;">
+    <tr>
+        <td align="center" style="border: none; width: 50%;">
+            <p>Original image</p>
+            <img width="350" height="200" src="https://github.com/RickZhang0730/Generative-AI-Navigation-Information-for-UAV-Reconnaissance-in-Natural-Environments/blob/main/Images/PUB_RI_2000005.jpg" alt="original image">
+            <p>Generative label</p>
+            <img width="350" height="200" src="https://github.com/RickZhang0730/Generative-AI-Navigation-Information-for-UAV-Reconnaissance-in-Natural-Environments/blob/main/Images/PUB_RI_2000005.png" alt="generative label">
+        </td>
+        <td align="center" style="border: none; width: 50%;">
+            <p>Original image</p>
+            <img width="350" height="200" src="https://github.com/RickZhang0730/Generative-AI-Navigation-Information-for-UAV-Reconnaissance-in-Natural-Environments/blob/main/Images/PUB_RO_2000432.jpg" alt="original image">
+            <p>Generative label</p>
+            <img width="350" height="200" src="https://github.com/RickZhang0730/Generative-AI-Navigation-Information-for-UAV-Reconnaissance-in-Natural-Environments/blob/main/Images/PUB_RO_2000432.png" alt="generative label">
+        </td>
+    </tr>
+</table>
 
+## Conclusion
+- 本研究顯示了使用生成式AI技術來構建無人機於自然環境下的地形導航資料的有效方法。結果顯示，使用EfficientNet-B7作為Encoder的U-Net模型在公開測試集和私有測試集上均取得了不錯的成績，然而仍存在提升空間。
+
+- **資料集擴增**：增加資料集的數量和多樣性，通過隨機垂直翻轉、水平翻轉、改變亮度等方法，顯著提高了模型的泛化能力。
+- **模型改進**：從原本的U-Net架構升級為U-Net++，引入密集的跳躍連接和動態更新學習率策略，有效地提升了模型的效能。
+- **邊緣偵測**：使用Segment Anything Model (SAM)技術，精確地分割河流和道路邊界，解決了橋梁和車輛對圖像邊界的不利影響。
+
+- 透過以上改進，模型的效能有了顯著的提升，表現在泛化能力和精準度上均有所改善。未來的研究應考慮將河流和道路資料集分開訓練，以進一步提升訓練的效果。此外，集成學習方法的引入也將是未來提升模型效能的方向。
+
+## Reference
+[1] Chen, L.-C., Zhu, Y., Papandreou, G., Schroff, F., & Adam, H. (2018). Encoder-Decoder with Atrous Separable Convolution for Semantic Image Segmentation.
+
+[2] Kirillov, A., Mintun, E., Ravi, N., Mao, H., Rolland, C., Gustafson, L., ... & Girshick, R. (2023). Segment Anything.
+
+[3] Ronneberger, O., Fischer, P., & Brox, T. (2015). U-Net: Convolutional Networks for Biomedical Image Segmentation.
+
+[4] Zhou, Z., Siddiquee, M. M. R., Tajbakhsh, N., & Liang, J. (2018). UNet++: A Nested U-Net Architecture for Medical Image Segmentation.
+
+[5] Tan, M., & Le, Q. V. (2019). EfficientNet: Rethinking Model Scaling for Convolutional Neural Networks.
