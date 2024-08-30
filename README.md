@@ -5,6 +5,7 @@
 - https://1drv.ms/i/c/a3d918eaa1794158/EaLfkQssz3xFo-kmhSrycUABAsI-6vDlSeRYwDt0_Vr9Zg
 - https://1drv.ms/u/c/a3d918eaa1794158/EaxmD5iAp7NGnjkvpcnmcK0B8FsXiGv27xDRInxmkK8Fxw
 - https://1drv.ms/u/c/a3d918eaa1794158/ETKd7amRRRVJoloP3hJVSV4BhLbllZQt5zbwYye4VPB4FA?e=RtFlTW
+- https://1drv.ms/u/c/a3d918eaa1794158/Efk2hdTz68ZGvvNSG0UmjPEB9ixG61eCS4-5bktaHlcbjQ?e=JZdoqV
 
 ## Installation
 To creating the environment, you can use the provided env.yml file to create a conda environment.
