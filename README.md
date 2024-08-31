@@ -2,11 +2,6 @@
 - A project focused on constructing autonomous UAV navigation datasets for natural environments, leveraging generative AI to enhance and generate training data from images of Taiwan's roads and rivers.
 - 建構以台灣道路、河流為目標的無人機自主導航影像資料集，根據天氣、視角、目標大小等因素進行分類。
 - 生成式AI用於擴充訓練資料集以及生成所需資料，建構無人機於自然環境偵察時所需之導航資訊。
-- https://1drv.ms/i/c/a3d918eaa1794158/EaLfkQssz3xFo-kmhSrycUABAsI-6vDlSeRYwDt0_Vr9Zg
-- https://1drv.ms/u/c/a3d918eaa1794158/EaxmD5iAp7NGnjkvpcnmcK0B8FsXiGv27xDRInxmkK8Fxw
-- https://1drv.ms/u/c/a3d918eaa1794158/ETKd7amRRRVJoloP3hJVSV4BhLbllZQt5zbwYye4VPB4FA?e=RtFlTW
-- https://1drv.ms/u/c/a3d918eaa1794158/Efk2hdTz68ZGvvNSG0UmjPEB9ixG61eCS4-5bktaHlcbjQ?e=JZdoqV
-- https://1drv.ms/i/c/a3d918eaa1794158/EctmrDqqi81Os-mPGnZhDvgBa3rCyQfM1vOHG6rDtbpdKQ?e=hjrLQG
 
 ## Installation
 To creating the environment, you can use the provided env.yml file to create a conda environment.
